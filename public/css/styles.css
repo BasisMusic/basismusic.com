@@ -102,7 +102,11 @@ main p {
     margin: 2rem 0;
 }
 
+footer p {
+    line-height: 20px;
+}
+
 p + p {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
