@@ -1,0 +1,95 @@
+body { 
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 2em 20%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+
+/*
+    Crowd: https://unsplash.com/photos/ZApnRQlPmAs
+    Fender amp: https://unsplash.com/photos/YeCif590X_0
+    Horns https://unsplash.com/photos/dBWvUqBoOU8
+    Record: https://unsplash.com/photos/0vY082Un2pk
+    Bassist https://unsplash.com/photos/PLjrql-Yq88
+    Record face: https://unsplash.com/photos/Kp1Oz5fSxiw
+    Piano: https://unsplash.com/photos/YOtOiHdwPqo
+    Records: https://unsplash.com/photos/EXCeGbyolPY
+    iPhone: https://unsplash.com/photos/BECWWmIuJ2k
+*/
+#header-img {
+    width: 100vw; 
+    height: 300px; 
+    overflow: hidden;  
+    background-image: url('../images/jarett-lopez-ZApnRQlPmAs-unsplash.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;   
+}
+
+#header-img h1 {
+    font-family: "Allrounder Grotesk Test"; /*'Werkdruck test', 'Allrounder Antiqua Test'*/
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.1rem;
+    color:  #fff;
+    padding: 0;
+    margin: 13rem 20% 2rem 20%;
+}
+
+.logo {
+    font-family: "Allrounder Grotesk Test";
+    font-size: 24px;
+    font-weight: 800;
+    color: #5d5d5d;
+}
+
+.logo span {
+    color:  #8d8d8d;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-size: 100px;
+    line-height: 112px;
+    letter-spacing: -4px;
+    font-weight: 300;
+    color:  #3d3d3d;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-family: "Sentinel", "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color:  #3d3d3d;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+p {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color:  #3d3d3d;
+    padding: 0;
+    margin: 2rem 0;
+}
